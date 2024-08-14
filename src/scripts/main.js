@@ -25,3 +25,11 @@ const contaTempo = setInterval(function() {
         document.getElementById('contador').innerHTML = ' Lamento mas você perdeu o maior evento do universo talvez na próxima'
     }
 }, 1000)
+
+function confirmarPresenca() {
+    alert("Você acaba de confirmar sua presença, aguardo você lá");
+}
+
+window.onload = function() {
+    document.getElementById("confirmarBtn").onclick = confirmarPresenca;
+}

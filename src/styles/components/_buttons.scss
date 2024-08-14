@@ -12,6 +12,11 @@
     &--primary {
         color: #fff;
         background-color: variables.$purple;
+        border: none;
+
+        &:hover {
+            background-color: variables.$purple2;
+        }
     }
     
     //mobille
